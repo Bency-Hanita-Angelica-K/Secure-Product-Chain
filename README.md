@@ -114,7 +114,9 @@ Open the `frontend` folder using VS Code Live Server.
 
 ### 🏠 Homepage
 
-![Homepage](screenshots/1-homepage.png)
+### 🏠 Homepage
+
+![Homepage](screenshots/Homepage/homepage.png)
 
 ---
 
