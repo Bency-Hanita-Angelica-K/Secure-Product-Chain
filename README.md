@@ -110,16 +110,91 @@ Open the `frontend` folder using VS Code Live Server.
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-Project screenshots are available in the `screenshots` folder.
+### 🏠 Homepage
 
-- Homepage
-- MetaMask Connected
-- Add Product
-- Product Added Successfully
-- Verification Result
+![Homepage](screenshots/1-homepage.png)
 
+---
+
+## 👨‍🏭 Manufacturer Module
+
+### Manufacturer Login
+
+![Manufacturer Login](screenshots/Manufacturer/manufacturer-login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/Manufacturer/manufacturer-dashboard.png)
+
+### Add Product
+
+![Add Product](screenshots/Manufacturer/add-product-form.png)
+
+### MetaMask Transaction
+
+![MetaMask](screenshots/Manufacturer/metamask-confirmation.png)
+
+### Product Registered Successfully
+
+![Success](screenshots/Manufacturer/product-added-successfully.png)
+
+### QR Code Generated
+
+![QR Code](screenshots/Manufacturer/qr-code-generated.png)
+
+---
+
+## 👤 Customer Module
+
+### Customer Login
+
+![Customer Login](screenshots/Customer/customer-login.png)
+
+### Scan QR Code
+
+![QR Scanner](screenshots/Customer/qr-scanner.png)
+
+### Verify Product
+
+![Verify Product](screenshots/Customer/verify-product-page.png)
+
+### Genuine Product Result
+
+![Verified](screenshots/Customer/product-verified.png)
+
+### Invalid Product Result
+
+![Invalid Product](screenshots/Customer/invalid-product.png)
+
+---
+
+## 👨‍💼 Admin Module
+
+### Admin Dashboard
+
+![Admin](screenshots/Admin/admin-dashboard.png)
+
+### Manufacturer Approval
+
+![Approval](screenshots/Admin/manufacturer-approval.png)
+
+---
+
+## ⚙️ Technical Setup
+
+### MetaMask Connected
+
+![MetaMask](screenshots/Technical/metamask-connected.png)
+
+### Hardhat Local Network
+
+![Hardhat](screenshots/Technical/hardhat-node.png)
+
+### MongoDB Connected
+
+![MongoDB](screenshots/Technical/mongodb-connected.png)
 ---
 
 ## 🔮 Future Enhancements
