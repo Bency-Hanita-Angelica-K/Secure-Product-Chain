@@ -1,109 +1,148 @@
 # 🔗 Secure Product Chain
 
-A professional blockchain-based fake product detection system. Manufacturers register products, product metadata is stored in MongoDB, the product proof is stored on Ethereum smart contract, and customers verify authenticity using Product ID or QR code.
+A Blockchain-Based Fake Product Detection System that enables manufacturers to register products on the Ethereum blockchain and allows customers to verify product authenticity using QR codes.
 
-## ✅ Features
+---
 
-- MetaMask wallet connection
-- Solidity smart contract with admin and approved manufacturer flow
-- MongoDB database for product metadata
-- Login and registration with JWT authentication
-- Roles: Admin, Manufacturer and Customer
-- Manufacturer dashboard to add products
-- QR code generation for each registered product
-- Customer verification page
-- Admin dashboard to view registered products
-- Hardhat local blockchain setup
-- Test case for smart contract
+## 📖 Project Overview
 
-## 🛠️ Tech Stack
+Counterfeit products are a major issue across industries. This project uses Blockchain technology to create an immutable product registry where manufacturers can securely register products and customers can verify authenticity by scanning a QR code.
 
-Solidity, Hardhat, Ethers.js, MetaMask, Node.js, Express.js, MongoDB, Mongoose, JWT, HTML, CSS and JavaScript.
+---
+
+## ✨ Features
+
+- 👤 User Registration & Login
+- 🔐 JWT Authentication
+- 👨‍💼 Role-Based Access (Admin, Manufacturer, Customer)
+- ⛓ Ethereum Smart Contract
+- 🦊 MetaMask Wallet Integration
+- 📦 Product Registration
+- 📱 QR Code Generation
+- ✅ Product Verification
+- 🗄 MongoDB Database
+- 🌐 REST API using Express.js
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Ethers.js
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+
+### Blockchain
+- Solidity
+- Hardhat
+- MetaMask
+- Ethereum Local Network
+
+---
 
 ## 📂 Project Structure
 
-```text
+```
 SecureProductChain/
+│
 ├── backend/
-│   ├── config/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── .env.example
-│   ├── package.json
-│   └── server.js
-├── contracts/
-│   └── ProductVerification.sol
 ├── frontend/
-│   ├── css/
-│   ├── js/
-│   ├── pages/
-│   └── index.html
-├── ignition/modules/ProductVerification.js
-├── test/ProductVerification.test.js
+├── contracts/
+├── ignition/
+├── screenshots/
+├── test/
+├── package.json
 ├── hardhat.config.js
 └── README.md
 ```
 
-## 🚀 Setup Instructions
+---
 
-### 1. Install blockchain dependencies
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Bency-Hanita-Angelica-K/Secure-Product-Chain.git
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
-
-### 2. Start Hardhat local blockchain
-
-```bash
-npm run node
-```
-
-### 3. Deploy smart contract
-
-Open another terminal:
-
-```bash
-npm run deploy
-```
-
-After deployment, copy the deployed contract address into `frontend/js/app.js` if it is different from the default local Hardhat address.
-
-### 4. Setup backend
 
 ```bash
 cd backend
 npm install
-copy .env.example .env
-npm run dev
 ```
 
-Make sure MongoDB is running locally.
-
-### 5. Start frontend
+### Start Hardhat Node
 
 ```bash
-cd frontend
-py -m http.server 5500
+npx hardhat node
 ```
 
-Open `http://localhost:5500`.
-
-## 🧪 Run Tests
+### Deploy Smart Contract
 
 ```bash
-npm test
+npx hardhat ignition deploy ./ignition/modules/ProductVerification.js --network localhost
 ```
 
-## 🎯 How It Works
+### Start Backend
 
-1. Admin or manufacturer registers/logs in.
-2. Manufacturer adds product details.
-3. Product proof is saved on blockchain.
-4. Product metadata and QR code are saved in MongoDB.
-5. Customer scans QR or enters Product ID.
-6. System verifies blockchain data and displays result.
+```bash
+cd backend
+npm start
+```
 
-## 👩‍💻 Author
+### Start Frontend
 
-Bency Hanita Angelica K
+Open the `frontend` folder using VS Code Live Server.
+
+---
+
+## 📸 Screenshots
+
+Project screenshots are available in the `screenshots` folder.
+
+- Homepage
+- MetaMask Connected
+- Add Product
+- Product Added Successfully
+- Verification Result
+
+---
+
+## 🔮 Future Enhancements
+
+- Deploy to Ethereum Sepolia Testnet
+- Mobile QR Scanner
+- Admin Approval Dashboard
+- Product History Tracking
+- Cloud Deployment
+- IPFS Integration
+
+---
+
+## 👨‍💻 Author
+
+**Bency Hanita Angelica K**
+
+Computer Science Engineering Student
+
+Blockchain | Web Development | Cybersecurity Enthusiast
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub.
