@@ -136,13 +136,9 @@ Open the `frontend` folder using VS Code Live Server.
 
 ![MetaMask](screenshots/Manufacturer/metamask-confirmation.png)
 
-### Product Registered Successfully
+### Product Registration & QR Code Generation
 
-![Success](screenshots/Manufacturer/product-added-successfully.png)
-
-### QR Code Generated
-
-![QR Code](screenshots/Manufacturer/qr-code-generated.png)
+![Product Registration and QR Code](screenshots/Manufacturer/product-registration-and-qr.png)
 
 ---
 
