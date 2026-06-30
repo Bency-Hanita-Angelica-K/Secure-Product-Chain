@@ -122,6 +122,10 @@ Open the `frontend` folder using VS Code Live Server.
 
 ## 👨‍🏭 Manufacturer Module
 
+### Manufacturer Registration
+
+![Manufacturer Registration](screenshots/Manufacturer/manufacturer-register.png)
+
 ### Manufacturer Login
 
 ![Manufacturer Login](screenshots/Manufacturer/manufacturer-login.png)
@@ -145,6 +149,10 @@ Open the `frontend` folder using VS Code Live Server.
 ---
 
 ## 👤 Customer Module
+
+### Customer Registration
+
+![Customer Registration](screenshots/Customer/customer-register.png)
 
 ### Customer Login
 
@@ -199,6 +207,11 @@ Open the `frontend` folder using VS Code Live Server.
 ### MongoDB Connected
 
 ![MongoDB](screenshots/Technical/mongodb-connected.png)
+
+### Smart Contract Deployment
+
+![Contract Deployment](screenshots/Technical/contract-deployed.png)
+
 ---
 
 ## 🔮 Future Enhancements
