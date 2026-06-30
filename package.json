@@ -1,0 +1,21 @@
+{
+  "name": "secureproductchain",
+  "version": "2.0.0",
+  "description": "Blockchain and MongoDB based fake product detection system with QR verification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat ignition deploy ignition/modules/ProductVerification.js --network localhost",
+    "frontend": "cd frontend && py -m http.server 5500",
+    "backend": "cd backend && npm run dev"
+  },
+  "keywords": ["blockchain", "hardhat", "product-verification", "qr-code", "mongodb"],
+  "author": "Bency Hanita Angelica K",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.15"
+  }
+}
