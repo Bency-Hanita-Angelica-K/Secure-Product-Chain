@@ -168,13 +168,19 @@ Open the `frontend` folder using VS Code Live Server.
 
 ## 👨‍💼 Admin Module
 
+# 👨‍💼 Admin Module
+
+### Admin Registration
+
+![Admin Registration](screenshots/Admin/admin-register.png)
+
+### Admin Login
+
+![Admin Login](screenshots/Admin/admin-login.png)
+
 ### Admin Dashboard
 
 ![Admin](screenshots/Admin/admin-dashboard.png)
-
-### Manufacturer Approval
-
-![Approval](screenshots/Admin/manufacturer-approval.png)
 
 ---
 
